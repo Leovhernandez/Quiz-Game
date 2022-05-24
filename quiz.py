@@ -1,5 +1,3 @@
-import pgzrun
-
 WIDTH = 1280
 HEIGHT = 720
 
@@ -110,6 +108,3 @@ def on_key_up(key):
 
 
 clock.schedule_interval(update_time_left, 1.0)
-
-
-pgzrun.go()
